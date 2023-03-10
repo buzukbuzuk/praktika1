@@ -20,5 +20,8 @@
         'HOST': 'your_host'(default is 'localhost'),
         'PORT': 'your_port'(default is '5432'),
     }
-### 6 run
+### migrate data model to database
+#### python manage.py makemigrations
+#### python manage.py migrate
+### 7 run
 #### python manage.py runserver
