@@ -9,7 +9,9 @@
 #### pip instal django
 ### 3 install database adapter
 #### pip install psycopg2
-### 4 change database settings in settings.py
+### 4 install database adapter
+#### pip install djangorestframework 
+### 5 change database settings in settings.py
      'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'your_db_name',
@@ -18,5 +20,5 @@
         'HOST': 'your_host'(default is 'localhost'),
         'PORT': 'your_port'(default is '5432'),
     }
-### 5 run
+### 6 run
 #### python manage.py runserver
